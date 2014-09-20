@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC14B1C619BAF1F60077B924 /* IchiranTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14B1C519BAF1F60077B924 /* IchiranTableViewController.m */; };
 		BC3ED4BA194309B30066F4CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3ED4B9194309B30066F4CA /* Foundation.framework */; };
 		BC3ED4BC194309B30066F4CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3ED4BB194309B30066F4CA /* CoreGraphics.framework */; };
 		BC3ED4BE194309B30066F4CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3ED4BD194309B30066F4CA /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		BC3ED4DB194309B30066F4CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3ED4BD194309B30066F4CA /* UIKit.framework */; };
 		BC3ED4E3194309B30066F4CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC3ED4E1194309B30066F4CA /* InfoPlist.strings */; };
 		BC3ED4E5194309B30066F4CA /* KoukanNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3ED4E4194309B30066F4CA /* KoukanNoteTests.m */; };
+		BC3ED4F01943242F0066F4CA /* NoteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3ED4EF1943242F0066F4CA /* NoteTableViewController.m */; };
+		BCBABE541967C98900CF4C10 /* HonbunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBABE531967C98900CF4C10 /* HonbunViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC14B1C419BAF1F60077B924 /* IchiranTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IchiranTableViewController.h; path = ../../IchiranTableViewController.h; sourceTree = "<group>"; };
+		BC14B1C519BAF1F60077B924 /* IchiranTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IchiranTableViewController.m; path = ../../IchiranTableViewController.m; sourceTree = "<group>"; };
 		BC3ED4B6194309B30066F4CA /* KoukanNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoukanNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3ED4B9194309B30066F4CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC3ED4BB194309B30066F4CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,10 @@
 		BC3ED4E0194309B30066F4CA /* KoukanNoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KoukanNoteTests-Info.plist"; sourceTree = "<group>"; };
 		BC3ED4E2194309B30066F4CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC3ED4E4194309B30066F4CA /* KoukanNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KoukanNoteTests.m; sourceTree = "<group>"; };
+		BC3ED4EE1943242F0066F4CA /* NoteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteTableViewController.h; sourceTree = "<group>"; };
+		BC3ED4EF1943242F0066F4CA /* NoteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteTableViewController.m; sourceTree = "<group>"; };
+		BCBABE521967C98900CF4C10 /* HonbunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HonbunViewController.h; sourceTree = "<group>"; };
+		BCBABE531967C98900CF4C10 /* HonbunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HonbunViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +126,14 @@
 				BC3ED4CB194309B30066F4CA /* Main.storyboard */,
 				BC3ED4CE194309B30066F4CA /* ViewController.h */,
 				BC3ED4CF194309B30066F4CA /* ViewController.m */,
+				BC3ED4EE1943242F0066F4CA /* NoteTableViewController.h */,
+				BC3ED4EF1943242F0066F4CA /* NoteTableViewController.m */,
+				BCBABE521967C98900CF4C10 /* HonbunViewController.h */,
+				BCBABE531967C98900CF4C10 /* HonbunViewController.m */,
 				BC3ED4D1194309B30066F4CA /* Images.xcassets */,
 				BC3ED4C0194309B30066F4CA /* Supporting Files */,
+				BC14B1C419BAF1F60077B924 /* IchiranTableViewController.h */,
+				BC14B1C519BAF1F60077B924 /* IchiranTableViewController.m */,
 			);
 			path = KoukanNote;
 			sourceTree = "<group>";
@@ -250,8 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC3ED4D0194309B30066F4CA /* ViewController.m in Sources */,
+				BC3ED4F01943242F0066F4CA /* NoteTableViewController.m in Sources */,
 				BC3ED4CA194309B30066F4CA /* AppDelegate.m in Sources */,
 				BC3ED4C6194309B30066F4CA /* main.m in Sources */,
+				BC14B1C619BAF1F60077B924 /* IchiranTableViewController.m in Sources */,
+				BCBABE541967C98900CF4C10 /* HonbunViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +474,7 @@
 				BC3ED4EA194309B30066F4CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC3ED4EB194309B30066F4CA /* Build configuration list for PBXNativeTarget "KoukanNoteTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +483,7 @@
 				BC3ED4ED194309B30066F4CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
