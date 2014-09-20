@@ -11,7 +11,7 @@
 @interface ViewController ()
 
 @end
-
+//aiueo
 @implementation ViewController
 
 - (void)viewDidLoad
